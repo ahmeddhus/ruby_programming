@@ -10,3 +10,5 @@ puts "    / |"
 puts "   /  |"
 puts "  /   |"
 puts " /____|"
+
+p "Print with p"
