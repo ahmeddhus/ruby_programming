@@ -18,3 +18,13 @@ end
 
 puts cube(2)
 puts cube(2)[1]
+
+def pow(baseNum, powNum)
+  result = 1
+      powNum.times do |index|
+        result = result * baseNum
+      end
+      return result
+end
+
+puts pow(5, 2)
